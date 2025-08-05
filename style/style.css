@@ -20,6 +20,11 @@ body {
 	background: gray;
 }
 
+a {
+	color: #0024e1;
+	text-decoration: none;
+}
+
 img, svg {
 	display: block;
 	margin: auto;
