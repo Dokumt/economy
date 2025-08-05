@@ -14,10 +14,6 @@
 	font-weight: normal;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
 	font: 21px Futura, tahoma, sans-serif;
 	line-height: 0.9; /* Межстрочный интервал */
