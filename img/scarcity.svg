@@ -1,0 +1,47 @@
+<svg width="400" height="470" viewBox="0 0 400 470" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<link href="../style/style.css" type="text/css" rel="stylesheet" xmlns="http://www.w3.org/1999/xhtml"/>
+	</defs>
+	
+	<foreignObject width="130px" height="60px" y="8.5">
+		<p xmlns="http://www.w3.org/1999/xhtml">
+			Желания и потребности людей
+		</p>
+	</foreignObject>
+	<polyline transform="translate(0 3)" points="165,0 235,35 165,70" fill="none" stroke="black" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+	<foreignObject width="130px" height="80px" x="270" y="0">
+		<p xmlns="http://www.w3.org/1999/xhtml">
+			Реальное количество ресурсов или вещей
+		</p>
+	</foreignObject>
+	<g transform="translate(172.5 90)">
+		<line x1="14.5" y1="6.55671e-08" x2="14.5" y2="50" stroke="black" stroke-width="3"/>
+		<line x1="44.5" y1="6.55671e-08" x2="44.5" y2="50" stroke="black" stroke-width="3"/>
+		<path d="M2 38L29.5 65.5L57 38" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+	</g>
+	<foreignObject width="400px" height="40px" x="0" y="165">
+		<p xmlns="http://www.w3.org/1999/xhtml">
+			В мире не существует такого количества ресурсов, чтобы удовлетворить всех
+		</p>
+	</foreignObject>
+	<g transform="translate(172.5 210)">
+		<line x1="14.5" y1="6.55671e-08" x2="14.5" y2="50" stroke="black" stroke-width="3"/>
+		<line x1="44.5" y1="6.55671e-08" x2="44.5" y2="50" stroke="black" stroke-width="3"/>
+		<path d="M2 38L29.5 65.5L57 38" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+	</g>
+	<foreignObject width="400px" height="60px" x="0" y="280">
+		<p xmlns="http://www.w3.org/1999/xhtml">
+			Реальность - вот настоящее <b>ограничение</b>, причина <b>нехватки</b>, <b>недостатка</b> ресурсов.<br/> А не рукотворные вещи вроде бюджета
+		</p>
+	</foreignObject>
+	<g transform="translate(172.5 350)">
+		<line x1="14.5" y1="6.55671e-08" x2="14.5" y2="50" stroke="black" stroke-width="3"/>
+		<line x1="44.5" y1="6.55671e-08" x2="44.5" y2="50" stroke="black" stroke-width="3"/>
+		<path d="M2 38L29.5 65.5L57 38" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+	</g>
+	<foreignObject width="400px" height="40px" x="0" y="420">
+		<p xmlns="http://www.w3.org/1999/xhtml">
+			Неудовлетворённые потребности - часть обстоятельств любой экономики
+		</p>
+	</foreignObject>
+</svg>

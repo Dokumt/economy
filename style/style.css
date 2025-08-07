@@ -18,10 +18,29 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body, svg {
 	font: 21px Futura, tahoma, sans-serif;
 	line-height: 0.9; /* Межстрочный интервал */
 	background: gray;
+}
+
+section {
+	width: 60%;
+	margin: auto;
+}
+
+object {
+	display: block;
+	margin: auto;
+}
+
+.flexItem {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flexItem > div {
+	width: 40%;
 }
 
 a {
@@ -39,6 +58,11 @@ ul {
   list-style-type: none;
   padding: 0;
   text-align: left;
+}
+
+ul.list li {
+  list-style-type: disc;
+  margin-bottom: 10px;
 }
 
 h1, p, .inlineVertical {
@@ -67,14 +91,7 @@ li > img {
 	margin-right: 10px;
 }
 
-.flexItem {
-	display: flex;
-	justify-content: center;
-}
 
-.flexItem > div {
-	width: 30%;
-}
 
 
 
