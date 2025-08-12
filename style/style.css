@@ -65,7 +65,7 @@ ul.list li {
   margin-bottom: 10px;
 }
 
-h1, p, .inlineVertical {
+h1, h3, p, .inlineVertical {
 	text-align: center;
 }
 
