@@ -21,26 +21,12 @@ html {
 body, svg {
 	font: 21px Futura, tahoma, sans-serif;
 	line-height: 0.9; /* Межстрочный интервал */
-	background: gray;
+	background: #5e5e5e;
 }
 
-section {
+body {
 	width: 60%;
 	margin: auto;
-}
-
-object {
-	display: block;
-	margin: auto;
-}
-
-.flexItem {
-	display: flex;
-	justify-content: space-around;
-}
-
-.flexItem > div {
-	width: 40%;
 }
 
 a {
@@ -52,6 +38,26 @@ img, svg {
 	display: block;
 	margin: auto;
 	margin-bottom: 50px;
+}
+
+.flexContainer {
+	display: flex;
+}
+
+.flexCenter {
+	justify-content: center;
+}
+
+.flexSA {
+	justify-content: space-around;
+}
+
+.flexContainer > div {
+	width: 40%;
+}
+
+.flexContainer > img {
+	margin: 5px;
 }
 
 ul {
@@ -91,10 +97,39 @@ li > img {
 	margin-right: 10px;
 }
 
+.cursor {
+	cursor: pointer;
+}
+
+.hide {
+	
+	overflow: hidden;
+	display: grid; 
+	grid-template-rows: 0fr;
+	transition: 1s grid-template-rows ease;
+	
+}
+
+.article:hover .hide{
+	grid-template-rows: 1fr;
+}
+
+.hidden  {
+	
+	/*height: 0;*/
+
+	/*display: none;*/
+}
 
 
 
 
+
+@media screen and (max-width: 800px) {
+	section {
+		width: 100%;
+	}
+}
 
 
 
@@ -140,9 +175,7 @@ foreignObject p {
 	margin-top: 0;
 }
 
-.hidden  {
-	display: none;
-}
+
 /* конфликт с animateTransform */
 polygon {
 	transform: scale(0.5);	
