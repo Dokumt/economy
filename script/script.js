@@ -15,9 +15,12 @@ function visible(cursor) {
 		*/
 		direction = "normal";
 	} else {
+		cursor.parentElement.parentElement.querySelector(".hide").classList.toggle("hidden");
+		/*
 		window.setTimeout(function() {			
 			cursor.parentElement.parentElement.querySelector(".hide").classList.toggle("hidden");
 		},500);
+		*/
 		direction = "reverse";
 	}
 	
